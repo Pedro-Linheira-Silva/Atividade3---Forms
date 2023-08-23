@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3</title>
+    <style>
+        tr, td {
+            border: 1px solid black;
+            width: 500px;
+            height: 50px;
+            background-color: wheat;
+        }
+        body {
+            background-color: plum;
+        }
+        table {
+            margin: auto;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1><center>As Maiores Inovações Tecnológicas dos Anos 2030</center></h1>
+    <p><center>A cada ano que passa temos uma evolução cada vez maior da tecnologia, o que nos permite facilitar nossa via, então porque ficar para trás sendo que você pode ver nosso site e se atualizar sobre as maiores evoluções tecnológicas nas últimas décadas.</center></p>
+    <table>
+        <thead>
+            <tr>
+                <td><h2>Inovação</h2></td>
+                <td><h2>Descrição</h2></td>
+                <td><h2>Impacto</h2></td>
+                <td><h2>Links</h2></td>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Inteligência Artificial em Robôs</td>
+                    <td>Um facilitador para o dia a dia do ser humano</td>
+                    <td>Praticamente todos tem um robô em casa, tendo uma praticidade de tarefas em casa feitas por eles</td>
+                    <td><a href="https://c2ti.com.br/blog/ai-o-que-e-inteligencia-artificial-e-porque-os-robos-tem-se-tornado-tao-populares-recentemente-inovacao">Aprenda mais sobre a Inteligência Artificial em Robôs aqui!</a></td>
+                </tr>
+                <tr>
+                    <td>Carros voadores</td>
+                    <td>Veiculo pratico e rápido para grande locomoções</td>
+                    <td>Um veiculo de fácil acesso com grande disponibilidade de locomoção, podendo fazer grandes viagens</td>
+                    <td><a href="https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2023/07/20/carro-voador-da-embraer-taubate.ghtml">Aprenda mais sobre carros voadores aqui!</a></td>
+                </tr>
+                <tr>
+                    <td>Carro movido a energia solar</td>
+                    <td>Veiculo auto sustentável</td>
+                    <td>Uma forma de energia limpa com menos impacto ao meio ambiente e menor custo de utilização</td>
+                    <td><a href="https://www.portalsolar.com.br/carro-movido-a-energia-solar-ja-e-realidade">Aprenda mais sobre carro movido a energia solar aqui!</a></td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><h2>Resumo</h2></td>
+                        <td>Evoluir é necessário</td>
+                    </tr>
+                </tfoot>
+            </tbody>
+        </thead>
+    </table>
+    <form action="/example.html" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br>
+
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password"><br>
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade"><br>
+
+        <input type="radio" id="opcao1" name="escolha" value="opcao1">
+        <label for="opcao1">Você já conhecia estas inovações?</label><br>
+
+        <p>Quais delas você já conhecia?</p>
+
+        <input type="checkbox" id="opcao1" name="escolha[]" value="opcao1">
+        <label for="opcao1">Inteligência Artificial em Robôs</label><br>
+          
+        <input type="checkbox" id="opcao2" name="escolha[]" value="opcao2">
+        <label for="opcao2">Carros voadores</label><br>
+          
+        <input type="checkbox" id="opcao3" name="escolha[]" value="opcao3">
+        <label for="opcao3">Carro movido a energia solar</label><br>
+
+        <p>Digite um comentário (Não é obrigatório)</p>
+        <textarea></textarea>
+
+        <details>
+            <summary>Detalhes</summary>
+            <p>Veja nossas próximas postagens para ficar mais antenado</p>
+          </details>
+
+        <center><input type="submit" value="Enviar"></center>
+          
+    </form>
+</body>
+</html>
